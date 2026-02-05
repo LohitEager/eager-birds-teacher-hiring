@@ -3,154 +3,232 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Eager Birds | Teacher Hiring – Next Steps</title>
+
+  <title>Eager Birds | Teacher Selection – Next Steps</title>
+
+  <!-- LinkedIn / Social Preview -->
+  <meta property="og:title" content="Eager Birds | Teacher Hiring – Next Steps">
+  <meta property="og:description" content="Complete the screening test and submit your demo video to proceed in the Eager Birds teacher selection process.">
+  <meta property="og:image" content="https://res.cloudinary.com/da3twnvrl/image/upload/v1763136619/20250603_2322_Graduating_Bird_Cartoon_remix_01jwvepykwfkd8xb4tag6sxmvn_oij1eu.png">
+  <meta property="og:type" content="website">
+
   <style>
+    * { box-sizing: border-box; }
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f7f9fc;
       margin: 0;
-      padding: 0;
-      color: #1f2937;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f3f7ff;
+      color: #0f172a;
     }
     .container {
-      max-width: 800px;
-      margin: 40px auto;
+      max-width: 760px;
+      margin: 24px auto 48px;
+      padding: 0 16px;
+    }
+    .header-image img {
+      width: 100%;
+      border-radius: 18px;
+    }
+    .card {
       background: #ffffff;
-      padding: 32px;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-radius: 18px;
+      box-shadow: 0 8px 26px rgba(16,24,40,0.08);
+      padding: 24px;
+      margin-top: 18px;
     }
-    h1 {
-      color: #0f172a;
-      margin-bottom: 8px;
+    .title-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
     }
-    h2 {
-      margin-top: 32px;
-      color: #111827;
+    .title-row h1 {
+      font-size: 26px;
+      line-height: 34px;
+      margin: 0;
+      flex: 1;
+    }
+    .mascot {
+      width: 72px;
+      border-radius: 14px;
     }
     p {
-      line-height: 1.6;
-      font-size: 15px;
-    }
-    .highlight {
-      background: #fef3c7;
-      padding: 12px 16px;
-      border-radius: 8px;
-      margin: 20px 0;
-      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #334155;
     }
     .step {
-      margin: 24px 0;
-      padding: 20px;
-      border-left: 5px solid #2563eb;
-      background: #f1f5ff;
-      border-radius: 8px;
+      background: #f6faff;
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 20px;
     }
-    a.button {
+    .step.orange {
+      background: #fff7ed;
+    }
+    .step h2 {
+      font-size: 16px;
+      margin: 0 0 6px 0;
+    }
+    .btn {
       display: inline-block;
       margin-top: 12px;
-      padding: 12px 20px;
-      background: #2563eb;
+      padding: 12px 18px;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 700;
       color: #ffffff;
       text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
     }
-    a.button:hover {
-      background: #1e40af;
+    .btn.blue {
+      background: #4EB2F4;
     }
-    .warning {
-      background: #fee2e2;
+    .btn.dark {
+      background: #111827;
+    }
+    .note {
+      font-size: 14px;
+      color: #475569;
+      margin-top: 10px;
+    }
+    .section-title {
+      font-weight: 700;
+      margin-top: 22px;
+      font-size: 15px;
+    }
+    .screenshot {
+      margin-top: 10px;
+      border-radius: 14px;
+      border: 1px solid #e5e7eb;
+      width: 100%;
+    }
+    .reminder {
+      background: #f1f5f9;
+      border-radius: 14px;
       padding: 14px;
-      border-radius: 8px;
-      font-weight: 600;
-      margin-top: 24px;
+      margin-top: 18px;
+      font-size: 14px;
     }
     footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #6b7280;
       text-align: center;
+      font-size: 13px;
+      color: #64748b;
+      margin-top: 24px;
+    }
+
+    @media (max-width: 600px) {
+      .title-row h1 { font-size: 22px; line-height: 30px; }
+      .mascot { width: 56px; }
     }
   </style>
 </head>
+
 <body>
 
   <div class="container">
-    <h1>Eager Birds – Teacher Hiring</h1>
-    <p><strong>Next Step in the Eager Birds Teacher Selection Process</strong></p>
 
-    <p>Dear Teacher,</p>
-
-    <p>
-      Thank you for your interest in joining <strong>Eager Birds</strong>.
-      Please complete the steps below within the given deadline.
-      <strong>Read carefully</strong> — missing instructions may lead to disqualification.
-    </p>
-
-    <div class="highlight">
-      PLEASE IGNORE THIS PAGE IF YOU HAVE ALREADY COMPLETED THE STEPS
+    <!-- Header Image -->
+    <div class="header-image">
+      <img
+        src="https://res.cloudinary.com/da3twnvrl/image/upload/v1763136619/20250603_2322_Graduating_Bird_Cartoon_remix_01jwvepykwfkd8xb4tag6sxmvn_oij1eu.png"
+        alt="Eager Birds Teacher Hiring"
+      />
     </div>
 
-    <div class="step">
-      <h2>✅ Step 1 — Complete the Screening Test</h2>
+    <div class="card">
+
+      <!-- Title + Mascot -->
+      <div class="title-row">
+        <h1>Next Step in the Eager Birds Teacher Selection Process</h1>
+        <img
+          src="https://res.cloudinary.com/da3twnvrl/image/upload/v1762696175/Video-Generation-Successful-unscreen_dx5ujt.gif"
+          alt="Eager Birds Mascot"
+          class="mascot"
+        />
+      </div>
+
       <p>
-        Open the teacher hiring page, choose your subject and grade preference,
-        and attempt the screening test.
+        Dear Teacher,<br><br>
+        Thank you for your interest in joining <strong>Eager Birds</strong>.
+        Please complete the steps below within the deadline.
+        <strong>Read carefully</strong> — missing instructions may lead to disqualification.
       </p>
-      <a href="PASTE-NOTION-HIRING-PAGE-LINK-HERE" class="button" target="_blank">
-        Open Teacher Hiring Page
-      </a>
-      <p><strong>Deadline:</strong> As mentioned on the hiring page. No extensions.</p>
-    </div>
 
-    <div class="step">
-      <h2>🔐 How to Access the Test (Extended Forms)</h2>
+      <!-- Step 1 -->
+      <div class="step">
+        <h2>✅ Step 1 — Complete the Screening Test</h2>
+        <p>
+          Open the hiring page, choose your <strong>subject</strong> and
+          <strong>grade preference</strong>, and attempt the screening test.
+        </p>
+        <a
+          class="btn blue"
+          href="https://www.notion.so/Eager-Birds-Teacher-Hiring-201824e5830680d2b166f81503cb6927?source=copy_link"
+          target="_blank"
+        >
+          Open Teacher Hiring Page (Notion)
+        </a>
+        <div class="note">
+          <strong>Deadline:</strong> As mentioned on the hiring page.
+          <strong>No extensions.</strong>
+        </div>
+      </div>
+
+      <!-- Extended Forms -->
+      <div class="section-title">🔐 How to Access the Test (Extended Forms)</div>
       <p>
         When you click a test from the Notion page, you may see an
-        <strong>Extended Forms sign-in screen</strong>.
-        Follow the instructions shown on that page carefully.
+        Extended Forms sign-in screen. Follow the steps shown below.
       </p>
-      <p>
-        <strong>Important:</strong> Use the <u>same email ID</u> for:
+      <img
+        class="screenshot"
+        src="https://res.cloudinary.com/da3twnvrl/image/upload/v1769264818/Untitled_design_10_1_iposlx.png"
+        alt="How to access Extended Forms test"
+      />
+      <div class="note">
+        <strong>Important:</strong> Use the <strong>same email ID</strong> for the
         screening test, demo submission, and all communication.
-        <br/>
         <strong>Mismatched emails = automatic disqualification.</strong>
-      </p>
-    </div>
+      </div>
 
-    <div class="step">
-      <h2>🎥 Step 2 — Submit Your Demo Video</h2>
-      <p>
-        Submit your demo class video using the form below.
-        Follow all instructions mentioned in the form carefully.
-      </p>
-      <a href="PASTE-DEMO-UPLOAD-FORM-LINK-HERE" class="button" target="_blank">
-        Upload Demo Video
-      </a>
-      <p>
-        <strong>Note:</strong> Incomplete or guideline-violating demo videos
-        will not be reviewed.
-      </p>
-    </div>
+      <!-- Step 2 -->
+      <div class="step orange">
+        <h2>🎥 Step 2 — Submit Your Demo Video</h2>
+        <p>
+          Submit your demo class video using the form below.
+          Follow all instructions in the form carefully.
+        </p>
+        <a
+          class="btn dark"
+          href="https://forms.gle/W3LBmS8xFxFH1EH48"
+          target="_blank"
+        >
+          Upload Demo Video
+        </a>
+        <div class="note">
+          <strong>Note:</strong> Incomplete or guideline-violating demos will not be reviewed.
+        </div>
+      </div>
 
-    <div class="warning">
-      ⚠️ Final Reminder: Use the same email ID everywhere.  
-      Late submissions will not be considered.
-    </div>
+      <!-- Reminder -->
+      <div class="reminder">
+        ⚠️ <strong>Final Reminder:</strong>
+        Use the <strong>same email ID</strong> everywhere.
+        Late submissions will not be considered.
+      </div>
 
-    <p>If you have any questions, please reply to the email you received.</p>
-
-    <footer>
-      <p>
-        Warm regards,<br/>
-        <strong>Team Eager Birds</strong><br/>
+      <!-- Footer -->
+      <footer>
+        If you have any questions, reply to the email you received.<br><br>
+        <strong>Team Eager Birds</strong><br>
         hr@eagerbirds.com • www.eagerbirds.com
-      </p>
-      <p>
-        You are receiving this link because you applied to Eager Birds as a teacher.
-      </p>
+      </footer>
+
+    </div>
+
+    <footer style="margin-top:16px;">
+      You are receiving this page because you applied to Eager Birds as a teacher.
     </footer>
+
   </div>
 
 </body>
